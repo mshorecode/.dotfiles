@@ -4,7 +4,6 @@ return {
   'Mofiqul/vscode.nvim',
   'folke/tokyonight.nvim',
   'Mofiqul/dracula.nvim',
-  'luisiacc/gruvbox-baby',
 
   -- Git
   'tpope/vim-fugitive',

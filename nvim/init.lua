@@ -19,4 +19,5 @@ vim.g.maplocalleader = ' '
 
 require('lazy').setup('plugins')
 
-vim.cmd [[ colorscheme tokyonight-storm ]]
+--vim.cmd [[ colorscheme onedark ]]
+

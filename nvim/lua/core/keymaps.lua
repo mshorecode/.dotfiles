@@ -58,3 +58,15 @@ keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
+-- Gitsigns --
+keymap("n", "<leader>hs", ":Gitsigns stage_hunk<CR>", opts)
+keymap("n", "<leader>hs", ":Gitsigns reset_hunk<CR>", opts)
+keymap("n", "<leader>hS", ":Gitsigns stage_buffer<CR>", opts)
+keymap("n", "<leader>hu", ":Gitsigns undo_stage_hunk<CR>", opts)
+keymap("n", "<leader>hR", ":Gitsigns reset_buffer<CR>", opts)
+keymap("n", "<leader>hp", ":Gitsigns preview_hunk<CR>", opts)
+keymap("n", "<leader>tb", ":Gitsigns toggle_current_line_blame<CR>", opts)
+keymap("n", "<leader>hd", ":Gitsigns diffthis<CR>", opts)
+keymap("n", "<leader>td", ":Gitsigns toggle_deleted<CR>", opts)
+
+
